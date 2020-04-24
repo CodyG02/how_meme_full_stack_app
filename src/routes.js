@@ -7,7 +7,7 @@ import Product from './Components/Product'
 import MemeForm from './Components/MemeForm'
 import Favorites from './Components/Favorites'
 
-export default (
+export default  (
     <Switch>
         <Route exact path='/' component={Landing}/>
         <Route path='/product' component={Product}/>
